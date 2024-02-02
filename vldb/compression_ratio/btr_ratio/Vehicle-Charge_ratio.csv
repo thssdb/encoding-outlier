@@ -1,0 +1,2 @@
+Input Direction,Column Index,Encoding Algorithm,Compress Algorithm,Encoding Time,Decoding Time,Compress Time,Uncompress Time,Points,Compressed Size,Compression Ratio
+/Users/zihanguo/Downloads/outliier_code/encoding-outlier/iotdb_test_small/Vehicle-Charge/electric_vehicle_charging.csv,1,BTRBLOCKS,NOCOMPRESSION,335117.45454545453,0,0,0,3395,4528,0.33343151693667167

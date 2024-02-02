@@ -1,0 +1,4 @@
+Input Direction,Encoding Algorithm,Encoding Time,Decoding Time,Points,Compressed Size,Compression Ratio
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/USGS-Earthquakes/syndata_earthquakes0.csv,RLE+BWS,8141630,1963862,75809,127151.0,0.41931366988088487
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/USGS-Earthquakes/syndata_earthquakes1.csv,RLE+BWS,8148157,1546467,75809,141392.0,0.46627709111055415
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/USGS-Earthquakes/syndata_earthquakes2.csv,RLE+BWS,8574144,1470098,75809,131716.0,0.43436795103483755

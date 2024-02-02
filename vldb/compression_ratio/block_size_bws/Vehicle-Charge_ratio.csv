@@ -1,0 +1,10 @@
+Input Direction,Encoding Algorithm,Encoding Time,Decoding Time,Points,Compressed Size,Block Size,Compression Ratio
+/Users/xiaojinzhao/Desktop/encoding-outlier/trans_data/Vehicle-Charge/electric_vehicle_charging.csv,TS_2DIFF+BOS-L,145344,71945,3395,4963.0,13,0.3654639175257732
+/Users/xiaojinzhao/Desktop/encoding-outlier/trans_data/Vehicle-Charge/electric_vehicle_charging.csv,TS_2DIFF+BOS-L,145020,65347,3395,4963.0,12,0.3654639175257732
+/Users/xiaojinzhao/Desktop/encoding-outlier/trans_data/Vehicle-Charge/electric_vehicle_charging.csv,TS_2DIFF+BOS-L,152073,66110,3395,4950.0,11,0.3645066273932253
+/Users/xiaojinzhao/Desktop/encoding-outlier/trans_data/Vehicle-Charge/electric_vehicle_charging.csv,TS_2DIFF+BOS-L,158540,63550,3395,4993.0,10,0.3676730486008837
+/Users/xiaojinzhao/Desktop/encoding-outlier/trans_data/Vehicle-Charge/electric_vehicle_charging.csv,TS_2DIFF+BOS-L,171178,70541,3395,5012.0,9,0.36907216494845363
+/Users/xiaojinzhao/Desktop/encoding-outlier/trans_data/Vehicle-Charge/electric_vehicle_charging.csv,TS_2DIFF+BOS-L,202811,69361,3395,5206.0,8,0.3833578792341679
+/Users/xiaojinzhao/Desktop/encoding-outlier/trans_data/Vehicle-Charge/electric_vehicle_charging.csv,TS_2DIFF+BOS-L,256692,78296,3395,5528.0,7,0.40706921944035346
+/Users/xiaojinzhao/Desktop/encoding-outlier/trans_data/Vehicle-Charge/electric_vehicle_charging.csv,TS_2DIFF+BOS-L,360635,80733,3395,6230.0,6,0.4587628865979381
+/Users/xiaojinzhao/Desktop/encoding-outlier/trans_data/Vehicle-Charge/electric_vehicle_charging.csv,TS_2DIFF+BOS-L,541399,101664,3395,7729.0,5,0.5691458026509573

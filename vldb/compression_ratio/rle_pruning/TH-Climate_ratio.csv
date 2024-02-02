@@ -1,0 +1,2 @@
+Input Direction,Encoding Algorithm,Encoding Time,Decoding Time,Points,Compressed Size,Compression Ratio
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/TH-Climate/syndata_climate0.csv,RLE+BOS-P,5286494,2006318,131746,108644.0,0.20616185690647154

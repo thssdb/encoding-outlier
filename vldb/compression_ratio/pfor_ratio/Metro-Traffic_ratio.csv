@@ -1,0 +1,13 @@
+Input Direction,Column Index,Encoding Algorithm,Compress Algorithm,Encoding Time,Decoding Time,Compress Time,Uncompress Time,Points,Compressed Size,Compression Ratio
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/Metro-Traffic/syndata_metro.csv,1,TS_2DIFF+NEWPFOR,NOCOMPRESSION,2038542.0,872458.0,0,0,48203,80928,0.4197249133871336
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/Metro-Traffic/syndata_metro.csv,1,RLE+NEWPFOR,NOCOMPRESSION,4078250.0,825834.0,0,0,48203,80384,0.41690351222952926
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/Metro-Traffic/syndata_metro.csv,1,SPRINTZ+NEWPFOR,NOCOMPRESSION,2609000.0,1371333.0,0,0,48203,77560,0.40225712092608346
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/Metro-Traffic/syndata_metro.csv,1,TS_2DIFF+OPTPFOR,NOCOMPRESSION,3689167.0,862708.0,0,0,48203,80924,0.4197041677903865
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/Metro-Traffic/syndata_metro.csv,1,RLE+OPTPFOR,NOCOMPRESSION,9421541.0,800416.0,0,0,48203,80384,0.41690351222952926
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/Metro-Traffic/syndata_metro.csv,1,SPRINTZ+OPTPFOR,NOCOMPRESSION,9621500.0,1224875.0,0,0,48203,76944,0.3990622990270315
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/Metro-Traffic/syndata_metro.csv,1,TS_2DIFF+FASTPFOR,NOCOMPRESSION,2006542.0,847417.0,0,0,48203,80360,0.41677903864904675
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/Metro-Traffic/syndata_metro.csv,1,RLE+FASTPFOR,NOCOMPRESSION,3658333.0,816125.0,0,0,48203,79556,0.4126091737028816
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/Metro-Traffic/syndata_metro.csv,1,SPRINTZ+FASTPFOR,NOCOMPRESSION,1815708.0,1216250.0,0,0,48203,76396,0.39622015227268015
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/Metro-Traffic/syndata_metro.csv,1,TS_2DIFF+PFOR,NOCOMPRESSION,2643083.0,851958.0,0,0,48203,79592,0.4127958840736054
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/Metro-Traffic/syndata_metro.csv,1,RLE+PFOR,NOCOMPRESSION,4886084.0,1006750.0,0,0,48203,79536,0.4125054457191461
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/Metro-Traffic/syndata_metro.csv,1,SPRINTZ+PFOR,NOCOMPRESSION,2725417.0,1531708.0,0,0,48203,77804,0.40352260232765597

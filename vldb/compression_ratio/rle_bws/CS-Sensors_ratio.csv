@@ -1,0 +1,2 @@
+Input Direction,Encoding Algorithm,Encoding Time,Decoding Time,Points,Compressed Size,Compression Ratio
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/CS-Sensors/test.csv,RLE+BWS,11720606,4908127,100000,88698.0,0.221745

@@ -1,0 +1,13 @@
+Input Direction,Column Index,Encoding Algorithm,Compress Algorithm,Encoding Time,Decoding Time,Compress Time,Uncompress Time,Points,Compressed Size,Compression Ratio
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/TH-Climate/syndata_climate0.csv,1,TS_2DIFF+NEWPFOR,NOCOMPRESSION,3593625.0,2166041.0,0,0,131746,129852,0.24640596298938866
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/TH-Climate/syndata_climate0.csv,1,RLE+NEWPFOR,NOCOMPRESSION,8834833.0,2278833.0,0,0,131746,120604,0.22885704309808266
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/TH-Climate/syndata_climate0.csv,1,SPRINTZ+NEWPFOR,NOCOMPRESSION,3896291.0,3216333.0,0,0,131746,111828,0.21220378607320145
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/TH-Climate/syndata_climate0.csv,1,TS_2DIFF+OPTPFOR,NOCOMPRESSION,6931625.0,2169084.0,0,0,131746,129772,0.24625415572389295
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/TH-Climate/syndata_climate0.csv,1,RLE+OPTPFOR,NOCOMPRESSION,1.3833542E7,2400333.0,0,0,131746,120340,0.22835607912194678
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/TH-Climate/syndata_climate0.csv,1,SPRINTZ+OPTPFOR,NOCOMPRESSION,1.0440584E7,3637042.0,0,0,131746,92900,0.17628618705691254
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/TH-Climate/syndata_climate0.csv,1,TS_2DIFF+FASTPFOR,NOCOMPRESSION,3477292.0,2723417.0,0,0,131746,128944,0.2446829505260122
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/TH-Climate/syndata_climate0.csv,1,RLE+FASTPFOR,NOCOMPRESSION,9379042.0,2936459.0,0,0,131746,118080,0.2240675238716925
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/TH-Climate/syndata_climate0.csv,1,SPRINTZ+FASTPFOR,NOCOMPRESSION,2584583.0,3496875.0,0,0,131746,99540,0.18888619009305785
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/TH-Climate/syndata_climate0.csv,1,TS_2DIFF+PFOR,NOCOMPRESSION,4248375.0,2292125.0,0,0,131746,123824,0.23496728553428567
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/TH-Climate/syndata_climate0.csv,1,RLE+PFOR,NOCOMPRESSION,9390291.0,2319583.0,0,0,131746,120268,0.2282194525830006
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/TH-Climate/syndata_climate0.csv,1,SPRINTZ+PFOR,NOCOMPRESSION,4185917.0,3284208.0,0,0,131746,112252,0.21300836458032882

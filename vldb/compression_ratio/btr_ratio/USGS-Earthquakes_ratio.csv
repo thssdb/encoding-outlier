@@ -1,0 +1,4 @@
+Input Direction,Column Index,Encoding Algorithm,Compress Algorithm,Encoding Time,Decoding Time,Compress Time,Uncompress Time,Points,Compressed Size,Compression Ratio
+/Users/zihanguo/Downloads/outliier_code/encoding-outlier/iotdb_test_small/USGS-Earthquakes/syndata_earthquakes0.csv,1,BTRBLOCKS,NOCOMPRESSION,5600140.090909091,0,0,0,75809,75988,0.2505902993048319
+/Users/zihanguo/Downloads/outliier_code/encoding-outlier/iotdb_test_small/USGS-Earthquakes/syndata_earthquakes1.csv,1,BTRBLOCKS,NOCOMPRESSION,7127806.818181818,0,0,0,75809,91649,0.3022365418354021
+/Users/zihanguo/Downloads/outliier_code/encoding-outlier/iotdb_test_small/USGS-Earthquakes/syndata_earthquakes2.csv,1,BTRBLOCKS,NOCOMPRESSION,2638428.090909091,0,0,0,75809,81742,0.26956861682290056

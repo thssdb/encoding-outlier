@@ -1,0 +1,13 @@
+Input Direction,Column Index,Encoding Algorithm,Compress Algorithm,Encoding Time,Decoding Time,Compress Time,Uncompress Time,Points,Compressed Size,Compression Ratio
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/CS-Sensors/test.csv,1,TS_2DIFF+NEWPFOR,NOCOMPRESSION,1.3917958E7,3072125.0,0,0,100000,168028,0.42007
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/CS-Sensors/test.csv,1,RLE+NEWPFOR,NOCOMPRESSION,1.6247792E7,2050333.0,0,0,100000,154060,0.38515
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/CS-Sensors/test.csv,1,SPRINTZ+NEWPFOR,NOCOMPRESSION,7890750.0,2632750.0,0,0,100000,164540,0.41135
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/CS-Sensors/test.csv,1,TS_2DIFF+OPTPFOR,NOCOMPRESSION,3.33715E7,1988834.0,0,0,100000,167608,0.41902
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/CS-Sensors/test.csv,1,RLE+OPTPFOR,NOCOMPRESSION,2.7224583E7,2290042.0,0,0,100000,153640,0.3841
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/CS-Sensors/test.csv,1,SPRINTZ+OPTPFOR,NOCOMPRESSION,1.9579792E7,3143375.0,0,0,100000,138528,0.34632
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/CS-Sensors/test.csv,1,TS_2DIFF+FASTPFOR,NOCOMPRESSION,6405875.0,2463750.0,0,0,100000,166556,0.41639
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/CS-Sensors/test.csv,1,RLE+FASTPFOR,NOCOMPRESSION,1.02085E7,3004750.0,0,0,100000,150452,0.37613
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/CS-Sensors/test.csv,1,SPRINTZ+FASTPFOR,NOCOMPRESSION,4188000.0,3352458.0,0,0,100000,133484,0.33371
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/CS-Sensors/test.csv,1,TS_2DIFF+PFOR,NOCOMPRESSION,1.1646791E7,5616417.0,0,0,100000,163860,0.40965
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/CS-Sensors/test.csv,1,RLE+PFOR,NOCOMPRESSION,1.070025E7,2309083.0,0,0,100000,152264,0.38066
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/CS-Sensors/test.csv,1,SPRINTZ+PFOR,NOCOMPRESSION,6829875.0,3842708.0,0,0,100000,133228,0.33307

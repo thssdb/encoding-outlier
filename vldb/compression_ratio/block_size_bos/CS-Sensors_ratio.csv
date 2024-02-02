@@ -1,0 +1,10 @@
+Input Direction,Encoding Algorithm,Encoding Time,Decoding Time,Points,Compressed Size,Block Size,Compression Ratio
+/Users/xiaojinzhao/Desktop/encoding-outlier/trans_data/CS-Sensors/test.csv,TS_2DIFF+BOS-V,5235091,6954697,100000,107923.0,13,0.2698075
+/Users/xiaojinzhao/Desktop/encoding-outlier/trans_data/CS-Sensors/test.csv,TS_2DIFF+BOS-V,5823839,6026029,100000,106746.0,12,0.266865
+/Users/xiaojinzhao/Desktop/encoding-outlier/trans_data/CS-Sensors/test.csv,TS_2DIFF+BOS-V,4334897,2719959,100000,106991.0,11,0.2674775
+/Users/xiaojinzhao/Desktop/encoding-outlier/trans_data/CS-Sensors/test.csv,TS_2DIFF+BOS-V,5821910,2793428,100000,107997.0,10,0.2699925
+/Users/xiaojinzhao/Desktop/encoding-outlier/trans_data/CS-Sensors/test.csv,TS_2DIFF+BOS-V,7574068,2922536,100000,110370.0,9,0.275925
+/Users/xiaojinzhao/Desktop/encoding-outlier/trans_data/CS-Sensors/test.csv,TS_2DIFF+BOS-V,9198862,5499110,100000,115405.0,8,0.2885125
+/Users/xiaojinzhao/Desktop/encoding-outlier/trans_data/CS-Sensors/test.csv,TS_2DIFF+BOS-V,10384317,3615497,100000,125822.0,7,0.314555
+/Users/xiaojinzhao/Desktop/encoding-outlier/trans_data/CS-Sensors/test.csv,TS_2DIFF+BOS-V,10302582,3302255,100000,147650.0,6,0.369125
+/Users/xiaojinzhao/Desktop/encoding-outlier/trans_data/CS-Sensors/test.csv,TS_2DIFF+BOS-V,9798120,3831467,100000,191278.0,5,0.478195

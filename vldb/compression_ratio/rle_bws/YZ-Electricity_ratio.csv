@@ -1,0 +1,2 @@
+Input Direction,Encoding Algorithm,Encoding Time,Decoding Time,Points,Compressed Size,Compression Ratio
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/YZ-Electricity/0a.csv,RLE+BWS,1059411,170690,10107,15427.0,0.38159196596418327

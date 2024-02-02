@@ -1,0 +1,9 @@
+Input Direction,Column Index,Encoding Algorithm,Compress Algorithm,Encoding Time,Decoding Time,Compress Time,Uncompress Time,Points,Compressed Size,Compression Ratio
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/CS-Sensors/test.csv,1,PLAIN,UNCOMPRESSED,1923031,927960,3332,2380,100000,150378.0,0.37594500000000075
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/CS-Sensors/test.csv,1,TS_2DIFF,UNCOMPRESSED,1911350,1128660,2499,2251,100000,165304.0,0.4132600000000005
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/CS-Sensors/test.csv,1,RLE,UNCOMPRESSED,3119074,770519,5712,5040,100000,150379.0,0.3759474999999999
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/CS-Sensors/test.csv,1,SPRINTZ,UNCOMPRESSED,6250745,2639759,2171,2624,100000,174051.0,0.43512750000000006
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/CS-Sensors/test.csv,1,GORILLA,UNCOMPRESSED,1521374,327053,1746,1713,100000,157468.0,0.39367000000000013
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/CS-Sensors/test.csv,1,RLBE,UNCOMPRESSED,78586470,2660854,1462,2002,100000,289403.0,0.7235074999999982
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/CS-Sensors/test.csv,1,CHIMP,UNCOMPRESSED,2075883,204959,1629,2246,100000,117089.0,0.2927225
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/CS-Sensors/test.csv,1,BUFF,UNCOMPRESSED,4913920,105189,1916,2163,100000,150016.0,0.3750399999999992

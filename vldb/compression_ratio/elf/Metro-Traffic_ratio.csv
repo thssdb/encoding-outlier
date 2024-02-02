@@ -1,0 +1,2 @@
+Input Direction,Column Index,Encoding Algorithm,Compress Algorithm,Encoding Time,Decoding Time,Compress Time,Uncompress Time,Points,Compressed Size,Compression Ratio,
+syndata_metro.csv,1,ElfCompressor32,NOCOMPRESSED,3284349.0,1545166.0,0,0,48204.0,859416.0,0.5571477470749315,

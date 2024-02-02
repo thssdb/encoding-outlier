@@ -1,0 +1,2 @@
+Input Direction,Encoding Algorithm,Encoding Time,Decoding Time,Points,Compressed Size,Compression Ratio
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/Vehicle-Charge/electric_vehicle_charging.csv,RLE+BOS-O,729430,55860,3395,4308.0,0.31723122238586154

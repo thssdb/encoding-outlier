@@ -1,0 +1,10 @@
+Input Direction,Encoding Algorithm,Encoding Time,Decoding Time,Points,Compressed Size,Block Size,Compression Ratio
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/CS-Sensors/test.csv,TS_2DIFF+BOS-H,6160110,3237616,100000,107923.0,13,0.2698075
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/CS-Sensors/test.csv,TS_2DIFF+BOS-H,7314200,5759715,100000,106640.0,12,0.2666
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/CS-Sensors/test.csv,TS_2DIFF+BOS-H,6650768,1859380,100000,106825.0,11,0.2670625
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/CS-Sensors/test.csv,TS_2DIFF+BOS-H,7667765,1940510,100000,107802.0,10,0.269505
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/CS-Sensors/test.csv,TS_2DIFF+BOS-H,11952359,2040609,100000,110216.0,9,0.27554
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/CS-Sensors/test.csv,TS_2DIFF+BOS-H,15270158,2171585,100000,115304.0,8,0.28826
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/CS-Sensors/test.csv,TS_2DIFF+BOS-H,22726685,2639594,100000,125734.0,7,0.314335
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/CS-Sensors/test.csv,TS_2DIFF+BOS-H,31885185,2734690,100000,147578.0,6,0.368945
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/CS-Sensors/test.csv,TS_2DIFF+BOS-H,45609250,3598385,100000,191179.0,5,0.4779475

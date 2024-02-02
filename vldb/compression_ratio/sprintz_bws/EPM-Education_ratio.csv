@@ -1,0 +1,4 @@
+Input Direction,Encoding Algorithm,Encoding Time,Decoding Time,Points,Compressed Size,Compression Ratio
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/EPM-Education/epm_2.csv,SPRINTZ+BWS,2948420,543945,25224,42131.0,0.4175685854741516
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/EPM-Education/epm_1.csv,SPRINTZ+BWS,11251259,2311673,99999,161051.0,0.40263152631526317
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/EPM-Education/epm_0.csv,SPRINTZ+BWS,11490501,2302230,99999,163739.0,0.40935159351593514

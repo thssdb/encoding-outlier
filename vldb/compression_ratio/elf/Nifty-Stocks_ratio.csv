@@ -1,0 +1,5 @@
+Input Direction,Column Index,Encoding Algorithm,Compress Algorithm,Encoding Time,Decoding Time,Compress Time,Uncompress Time,Points,Compressed Size,Compression Ratio,
+.DS_Store,1,ElfCompressor32,NOCOMPRESSED,834.0,292.0,0,0,1.0,8.0,0.25,
+syndata_stocks2.csv,1,ElfCompressor32,NOCOMPRESSED,363002.0,111374.0,0,0,3711.0,102777.0,0.8654759498787389,
+syndata_stocks1.csv,1,ElfCompressor32,NOCOMPRESSED,368877.0,167916.0,0,0,3711.0,71062.0,0.5984067636755591,
+syndata_stocks0.csv,1,ElfCompressor32,NOCOMPRESSED,353583.0,139710.0,0,0,3707.0,61935.0,0.5221118829241974,

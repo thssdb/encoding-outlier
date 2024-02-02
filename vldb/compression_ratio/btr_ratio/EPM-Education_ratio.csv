@@ -1,0 +1,4 @@
+Input Direction,Column Index,Encoding Algorithm,Compress Algorithm,Encoding Time,Decoding Time,Compress Time,Uncompress Time,Points,Compressed Size,Compression Ratio
+/Users/zihanguo/Downloads/outliier_code/encoding-outlier/iotdb_test_small/EPM-Education/epm_2.csv,1,BTRBLOCKS,NOCOMPRESSION,759382.4545454546,0,0,0,25224,35520,0.3520456707897241
+/Users/zihanguo/Downloads/outliier_code/encoding-outlier/iotdb_test_small/EPM-Education/epm_1.csv,1,BTRBLOCKS,NOCOMPRESSION,2792810.5454545454,0,0,0,99999,137446,0.3436188907343619
+/Users/zihanguo/Downloads/outliier_code/encoding-outlier/iotdb_test_small/EPM-Education/epm_0.csv,1,BTRBLOCKS,NOCOMPRESSION,2971799.1818181816,0,0,0,99999,137465,0.34366616393436666

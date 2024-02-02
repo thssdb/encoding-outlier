@@ -1,0 +1,13 @@
+Input Direction,Column Index,Encoding Algorithm,Compress Algorithm,Encoding Time,Decoding Time,Compress Time,Uncompress Time,Points,Compressed Size,Compression Ratio
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/Vehicle-Charge/electric_vehicle_charging.csv,1,TS_2DIFF+NEWPFOR,NOCOMPRESSION,132000.0,57708.0,0,0,3395,5344,0.393519882179676
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/Vehicle-Charge/electric_vehicle_charging.csv,1,RLE+NEWPFOR,NOCOMPRESSION,277375.0,57250.0,0,0,3395,4716,0.34727540500736376
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/Vehicle-Charge/electric_vehicle_charging.csv,1,SPRINTZ+NEWPFOR,NOCOMPRESSION,159167.0,86458.0,0,0,3395,5080,0.374079528718704
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/Vehicle-Charge/electric_vehicle_charging.csv,1,TS_2DIFF+OPTPFOR,NOCOMPRESSION,278250.0,58541.0,0,0,3395,5340,0.39322533136966126
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/Vehicle-Charge/electric_vehicle_charging.csv,1,RLE+OPTPFOR,NOCOMPRESSION,600209.0,55000.0,0,0,3395,4716,0.34727540500736376
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/Vehicle-Charge/electric_vehicle_charging.csv,1,SPRINTZ+OPTPFOR,NOCOMPRESSION,619542.0,83417.0,0,0,3395,5044,0.37142857142857144
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/Vehicle-Charge/electric_vehicle_charging.csv,1,TS_2DIFF+FASTPFOR,NOCOMPRESSION,107250.0,61750.0,0,0,3395,5356,0.39440353460972016
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/Vehicle-Charge/electric_vehicle_charging.csv,1,RLE+FASTPFOR,NOCOMPRESSION,275833.0,73958.0,0,0,3395,4596,0.33843888070692196
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/Vehicle-Charge/electric_vehicle_charging.csv,1,SPRINTZ+FASTPFOR,NOCOMPRESSION,103333.0,86208.0,0,0,3395,4992,0.36759941089838
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/Vehicle-Charge/electric_vehicle_charging.csv,1,TS_2DIFF+PFOR,NOCOMPRESSION,127167.0,60000.0,0,0,3395,5172,0.3808541973490427
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/Vehicle-Charge/electric_vehicle_charging.csv,1,RLE+PFOR,NOCOMPRESSION,270417.0,59541.0,0,0,3395,4816,0.354639175257732
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/Vehicle-Charge/electric_vehicle_charging.csv,1,SPRINTZ+PFOR,NOCOMPRESSION,127083.0,83792.0,0,0,3395,5168,0.38055964653902796

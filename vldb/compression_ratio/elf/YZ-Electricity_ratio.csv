@@ -1,0 +1,2 @@
+Input Direction,Column Index,Encoding Algorithm,Compress Algorithm,Encoding Time,Decoding Time,Compress Time,Uncompress Time,Points,Compressed Size,Compression Ratio,
+0a.csv,1,ElfCompressor32,NOCOMPRESSED,1158787.0,773167.0,0,0,10108.0,203797.0,0.6300609665611397,

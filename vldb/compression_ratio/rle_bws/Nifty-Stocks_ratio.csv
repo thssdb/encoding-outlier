@@ -1,0 +1,3 @@
+Input Direction,Encoding Algorithm,Encoding Time,Decoding Time,Points,Compressed Size,Compression Ratio
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/Nifty-Stocks/syndata_stocks2.csv,RLE+BWS,980140,368490,3710,10075.0,0.6789083557951483
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/Nifty-Stocks/syndata_stocks1.csv,RLE+BWS,713511,170026,3710,7246.0,0.48827493261455523

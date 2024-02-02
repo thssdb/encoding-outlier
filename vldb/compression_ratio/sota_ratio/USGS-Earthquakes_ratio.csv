@@ -1,0 +1,25 @@
+Input Direction,Column Index,Encoding Algorithm,Compress Algorithm,Encoding Time,Decoding Time,Compress Time,Uncompress Time,Points,Compressed Size,Compression Ratio
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/USGS-Earthquakes/syndata_earthquakes0.csv,1,PLAIN,UNCOMPRESSED,954045,440347,1293,1960,75809,151533.0,0.4997196902742408
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/USGS-Earthquakes/syndata_earthquakes0.csv,1,TS_2DIFF,UNCOMPRESSED,641675,545948,997,1459,75809,143849.0,0.47437969106570493
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/USGS-Earthquakes/syndata_earthquakes0.csv,1,RLE,UNCOMPRESSED,1286509,601450,1575,1505,75809,303570.0,1.0011014523341546
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/USGS-Earthquakes/syndata_earthquakes0.csv,1,SPRINTZ,UNCOMPRESSED,4613407,1553673,1459,1872,75809,148178.0,0.48865570051049245
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/USGS-Earthquakes/syndata_earthquakes0.csv,1,GORILLA,UNCOMPRESSED,2292382,7418,1462,1038,75809,312577.0,1.03080438998008
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/USGS-Earthquakes/syndata_earthquakes0.csv,1,RLBE,UNCOMPRESSED,66534096,2199013,1127,5248,75809,257644.0,0.8496484586262857
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/USGS-Earthquakes/syndata_earthquakes0.csv,1,CHIMP,UNCOMPRESSED,1866411,17596,1789,1376,75809,147449.0,0.48625163239193314
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/USGS-Earthquakes/syndata_earthquakes0.csv,1,BUFF,UNCOMPRESSED,4137454,33698,1291,1463,75809,132682.0,0.43755358862404153
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/USGS-Earthquakes/syndata_earthquakes1.csv,1,PLAIN,UNCOMPRESSED,1356347,529520,1460,1751,75809,220664.0,0.7276972391140883
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/USGS-Earthquakes/syndata_earthquakes1.csv,1,TS_2DIFF,UNCOMPRESSED,603454,516506,1709,1460,75809,157324.0,0.5188170270020716
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/USGS-Earthquakes/syndata_earthquakes1.csv,1,RLE,UNCOMPRESSED,1285667,596921,1326,1717,75809,303486.0,1.0008244403698783
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/USGS-Earthquakes/syndata_earthquakes1.csv,1,SPRINTZ,UNCOMPRESSED,4767926,1573244,1461,2039,75809,192162.0,0.6337044414251597
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/USGS-Earthquakes/syndata_earthquakes1.csv,1,GORILLA,UNCOMPRESSED,2331407,7242,1334,1542,75809,313383.0,1.0334623857325633
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/USGS-Earthquakes/syndata_earthquakes1.csv,1,RLBE,UNCOMPRESSED,68310095,2167115,1124,1625,75809,261661.0,0.8628955664894691
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/USGS-Earthquakes/syndata_earthquakes1.csv,1,CHIMP,UNCOMPRESSED,1908600,13310,999,1911,75809,155752.0,0.5136329459562838
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/USGS-Earthquakes/syndata_earthquakes1.csv,1,BUFF,UNCOMPRESSED,4442229,30046,1706,1915,75809,151634.0,0.5000527641836716
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/USGS-Earthquakes/syndata_earthquakes2.csv,1,PLAIN,UNCOMPRESSED,1143167,617138,3335,1625,75809,150781.0,0.49723977364165245
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/USGS-Earthquakes/syndata_earthquakes2.csv,1,TS_2DIFF,UNCOMPRESSED,662716,572848,1786,1672,75809,162188.0,0.5348573388383976
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/USGS-Earthquakes/syndata_earthquakes2.csv,1,RLE,UNCOMPRESSED,1425596,598889,1043,1916,75809,303570.0,1.0011014523341546
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/USGS-Earthquakes/syndata_earthquakes2.csv,1,SPRINTZ,UNCOMPRESSED,4592037,1639801,1542,1541,75809,156561.0,0.5163008349932078
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/USGS-Earthquakes/syndata_earthquakes2.csv,1,GORILLA,UNCOMPRESSED,2414980,7400,1501,1579,75809,320829.0,1.0580175177089768
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/USGS-Earthquakes/syndata_earthquakes2.csv,1,RLBE,UNCOMPRESSED,67342022,2207932,1334,5332,75809,262620.0,0.8660581197483158
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/USGS-Earthquakes/syndata_earthquakes2.csv,1,CHIMP,UNCOMPRESSED,1884742,13431,1255,1713,75809,155520.0,0.5128678652930391
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/USGS-Earthquakes/syndata_earthquakes2.csv,1,BUFF,UNCOMPRESSED,5040542,41162,1000,1290,75809,161111.0,0.5313056497249654

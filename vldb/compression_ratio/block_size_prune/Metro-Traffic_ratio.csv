@@ -1,0 +1,10 @@
+Input Direction,Encoding Algorithm,Encoding Time,Decoding Time,Points,Compressed Size,Block Size,Compression Ratio
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/Metro-Traffic/syndata_metro.csv,TS_2DIFF+BOS-H,29093559,1007486,48203,73466.0,13,0.3810240026554364
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/Metro-Traffic/syndata_metro.csv,TS_2DIFF+BOS-H,29038693,955074,48203,73359.0,12,0.3804690579424517
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/Metro-Traffic/syndata_metro.csv,TS_2DIFF+BOS-H,25248037,995170,48203,73229.0,11,0.3797948260481713
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/Metro-Traffic/syndata_metro.csv,TS_2DIFF+BOS-H,19361750,1022617,48203,73155.0,10,0.3794110325083501
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/Metro-Traffic/syndata_metro.csv,TS_2DIFF+BOS-H,14597219,1073745,48203,73663.0,9,0.38204572329523057
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/Metro-Traffic/syndata_metro.csv,TS_2DIFF+BOS-H,12963646,1101791,48203,75770.0,8,0.39297346638176045
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/Metro-Traffic/syndata_metro.csv,TS_2DIFF+BOS-H,14611217,1105122,48203,80300.0,7,0.41646785469784037
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/Metro-Traffic/syndata_metro.csv,TS_2DIFF+BOS-H,14938733,1234419,48203,89232.0,6,0.4627927722340933
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/Metro-Traffic/syndata_metro.csv,TS_2DIFF+BOS-H,17959828,1358440,48203,110716.0,5,0.574217372362716

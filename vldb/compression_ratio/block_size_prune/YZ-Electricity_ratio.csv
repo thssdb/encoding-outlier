@@ -1,0 +1,10 @@
+Input Direction,Encoding Algorithm,Encoding Time,Decoding Time,Points,Compressed Size,Block Size,Compression Ratio
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/YZ-Electricity/0a.csv,TS_2DIFF+BOS-H,1841015,143229,10107,13568.0,13,0.33560898387256355
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/YZ-Electricity/0a.csv,TS_2DIFF+BOS-H,2326336,129108,10107,13563.0,12,0.33548530721282277
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/YZ-Electricity/0a.csv,TS_2DIFF+BOS-H,2895395,125667,10107,13577.0,11,0.335831601860097
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/YZ-Electricity/0a.csv,TS_2DIFF+BOS-H,3192465,121435,10107,13641.0,10,0.33741466310477886
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/YZ-Electricity/0a.csv,TS_2DIFF+BOS-H,2881769,121999,10107,13815.0,9,0.34171861086375777
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/YZ-Electricity/0a.csv,TS_2DIFF+BOS-H,2498351,134993,10107,14339.0,8,0.3546799248045909
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/YZ-Electricity/0a.csv,TS_2DIFF+BOS-H,2270558,151131,10107,15380.0,7,0.38042940536262
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/YZ-Electricity/0a.csv,TS_2DIFF+BOS-H,2498668,175953,10107,17620.0,6,0.4358365489264866
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/YZ-Electricity/0a.csv,TS_2DIFF+BOS-H,3183600,236718,10107,22156.0,5,0.5480360146433165

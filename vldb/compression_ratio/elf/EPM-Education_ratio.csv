@@ -1,0 +1,4 @@
+Input Direction,Column Index,Encoding Algorithm,Compress Algorithm,Encoding Time,Decoding Time,Compress Time,Uncompress Time,Points,Compressed Size,Compression Ratio,
+epm_2.csv,1,ElfCompressor32,NOCOMPRESSED,1291666.0,661512.0,0,0,25225.0,500629.0,0.6202044103072348,
+epm_1.csv,1,ElfCompressor32,NOCOMPRESSED,4973421.0,2627788.0,0,0,100000.0,1948825.0,0.6090078125,
+epm_0.csv,1,ElfCompressor32,NOCOMPRESSED,5009703.0,2653756.0,0,0,100000.0,1968891.0,0.6152784375,

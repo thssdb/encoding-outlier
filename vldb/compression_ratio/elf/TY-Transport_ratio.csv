@@ -1,0 +1,6 @@
+Input Direction,Column Index,Encoding Algorithm,Compress Algorithm,Encoding Time,Decoding Time,Compress Time,Uncompress Time,Points,Compressed Size,Compression Ratio,
+syndata_transport3.csv,1,ElfCompressor32,NOCOMPRESSED,2002401.0,617619.0,0,0,29513.0,392671.0,0.4157818164876495,
+syndata_transport0.csv,1,ElfCompressor32,NOCOMPRESSED,2598613.0,910546.0,0,0,51223.0,463309.0,0.28265439841477463,
+syndata_transport1.csv,1,ElfCompressor32,NOCOMPRESSED,3736499.0,1093795.0,0,0,51223.0,574751.0,0.35064265564297287,
+syndata_transport4.csv,1,ElfCompressor32,NOCOMPRESSED,4855130.0,613422.0,0,0,29513.0,437924.0,0.46369820079287094,
+syndata_transport6.csv,1,ElfCompressor32,NOCOMPRESSED,1182259.0,693118.0,0,0,34049.0,401513.0,0.36850660078122704,

@@ -1,0 +1,2 @@
+Input Direction,Encoding Algorithm,Encoding Time,Decoding Time,Points,Compressed Size,Compression Ratio
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/Metro-Traffic/syndata_metro.csv,TS_2DIFF+BOS-P,22950479,3242367,48203,73155.0,0.3794110325083501

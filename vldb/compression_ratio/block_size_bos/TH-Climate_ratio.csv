@@ -1,0 +1,10 @@
+Input Direction,Encoding Algorithm,Encoding Time,Decoding Time,Points,Compressed Size,Block Size,Compression Ratio
+/Users/xiaojinzhao/Desktop/encoding-outlier/trans_data/TH-Climate/syndata_climate0.csv,TS_2DIFF+BOS-V,3178568,2696542,131746,76081.0,13,0.14437060707725471
+/Users/xiaojinzhao/Desktop/encoding-outlier/trans_data/TH-Climate/syndata_climate0.csv,TS_2DIFF+BOS-V,3513744,2650140,131746,74878.0,12,0.14208780532236273
+/Users/xiaojinzhao/Desktop/encoding-outlier/trans_data/TH-Climate/syndata_climate0.csv,TS_2DIFF+BOS-V,4114206,2689164,131746,74374.0,11,0.14113141954973965
+/Users/xiaojinzhao/Desktop/encoding-outlier/trans_data/TH-Climate/syndata_climate0.csv,TS_2DIFF+BOS-V,4697691,2780600,131746,74868.0,10,0.14206882941417576
+/Users/xiaojinzhao/Desktop/encoding-outlier/trans_data/TH-Climate/syndata_climate0.csv,TS_2DIFF+BOS-V,5376423,2871375,131746,76934.0,9,0.1459892520456029
+/Users/xiaojinzhao/Desktop/encoding-outlier/trans_data/TH-Climate/syndata_climate0.csv,TS_2DIFF+BOS-V,5869660,2949293,131746,82871.0,8,0.15725524873620453
+/Users/xiaojinzhao/Desktop/encoding-outlier/trans_data/TH-Climate/syndata_climate0.csv,TS_2DIFF+BOS-V,5871291,3152915,131746,97493.0,7,0.18500182168718596
+/Users/xiaojinzhao/Desktop/encoding-outlier/trans_data/TH-Climate/syndata_climate0.csv,TS_2DIFF+BOS-V,5473120,3374061,131746,127425.0,6,0.24180051007241207
+/Users/xiaojinzhao/Desktop/encoding-outlier/trans_data/TH-Climate/syndata_climate0.csv,TS_2DIFF+BOS-V,5184333,4009069,131746,181161.0,5,0.3437694503058916

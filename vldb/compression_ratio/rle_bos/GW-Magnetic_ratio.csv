@@ -1,0 +1,5 @@
+Input Direction,Encoding Algorithm,Encoding Time,Decoding Time,Points,Compressed Size,Compression Ratio
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/GW-Magnetic/syndata_magnetic0.csv,RLE+BOS-O,18537250,245886,18353,40352.0,0.5496649049201765
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/GW-Magnetic/syndata_magnetic1.csv,RLE+BOS-O,12500323,755780,58373,71534.0,0.30636595686361845
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/GW-Magnetic/syndata_magnetic3.csv,RLE+BOS-O,12335362,642601,58373,71534.0,0.30636595686361845
+/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/GW-Magnetic/syndata_magnetic2.csv,RLE+BOS-O,15747653,235038,17785,38727.0,0.5443772842282822

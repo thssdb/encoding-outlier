@@ -1,0 +1,2 @@
+Input Direction,Column Index,Encoding Algorithm,Compress Algorithm,Encoding Time,Decoding Time,Compress Time,Uncompress Time,Points,Compressed Size,Compression Ratio
+/Users/zihanguo/Downloads/outliier_code/encoding-outlier/iotdb_test_small/Metro-Traffic/syndata_metro.csv,1,BTRBLOCKS,NOCOMPRESSION,1654231.0909090908,0,0,0,48203,79120,0.4103479036574488
