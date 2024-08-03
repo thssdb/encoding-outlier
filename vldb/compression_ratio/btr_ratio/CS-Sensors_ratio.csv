@@ -1,2 +1,0 @@
-Input Direction,Column Index,Encoding Algorithm,Compress Algorithm,Encoding Time,Decoding Time,Compress Time,Uncompress Time,Points,Compressed Size,Compression Ratio
-/Users/zihanguo/Downloads/outliier_code/encoding-outlier/iotdb_test_small/CS-Sensors/test.csv,1,BTRBLOCKS,NOCOMPRESSION,2.3849458363636363E7,0,0,0,100000,148604,0.371510909090909

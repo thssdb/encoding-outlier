@@ -1,6 +1,0 @@
-Input Direction,Column Index,Encoding Algorithm,Compress Algorithm,Encoding Time,Decoding Time,Compress Time,Uncompress Time,Points,Compressed Size,Compression Ratio
-/Users/zihanguo/Downloads/outliier_code/encoding-outlier/iotdb_test_small/Cyber-Vehicle/syndata_vehicle0.csv,1,BTRBLOCKS,NOCOMPRESSION,457943.2727272727,0,0,0,7280,8352,0.28682567432567435
-/Users/zihanguo/Downloads/outliier_code/encoding-outlier/iotdb_test_small/Cyber-Vehicle/syndata_vehicle1.csv,1,BTRBLOCKS,NOCOMPRESSION,260996.0909090909,0,0,0,7280,28685,0.9850774225774227
-/Users/zihanguo/Downloads/outliier_code/encoding-outlier/iotdb_test_small/Cyber-Vehicle/syndata_vehicle3.csv,1,BTRBLOCKS,NOCOMPRESSION,324344.9090909091,0,0,0,7280,6108,0.2097527472527472
-/Users/zihanguo/Downloads/outliier_code/encoding-outlier/iotdb_test_small/Cyber-Vehicle/syndata_vehicle2.csv,1,BTRBLOCKS,NOCOMPRESSION,270488.45454545453,0,0,0,7280,5318,0.18262362637362636
-/Users/zihanguo/Downloads/outliier_code/encoding-outlier/iotdb_test_small/Cyber-Vehicle/syndata_vehicle4.csv,1,BTRBLOCKS,NOCOMPRESSION,237738.63636363635,0,0,0,7280,10120,0.34752747252747257

@@ -1,2 +1,0 @@
-Input Direction,Column Index,Encoding Algorithm,Compress Algorithm,Encoding Time,Decoding Time,Compress Time,Uncompress Time,Points,Compressed Size,Compression Ratio
-/Users/zihanguo/Downloads/outliier_code/encoding-outlier/iotdb_test_small/TH-Climate/syndata_climate0.csv,1,BTRBLOCKS,NOCOMPRESSION,5515818.454545454,0,0,0,131746,164894,0.31290134045815426

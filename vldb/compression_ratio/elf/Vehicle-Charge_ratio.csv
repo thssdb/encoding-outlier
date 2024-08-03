@@ -1,2 +1,0 @@
-Input Direction,Column Index,Encoding Algorithm,Compress Algorithm,Encoding Time,Decoding Time,Compress Time,Uncompress Time,Points,Compressed Size,Compression Ratio,
-electric_vehicle_charging.csv,1,ElfCompressor32,NOCOMPRESSED,171958.0,102749.0,0,0,3396.0,67747.0,0.6234080535924618,

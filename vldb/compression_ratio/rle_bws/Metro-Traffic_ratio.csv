@@ -1,2 +1,0 @@
-Input Direction,Encoding Algorithm,Encoding Time,Decoding Time,Points,Compressed Size,Compression Ratio
-/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/Metro-Traffic/syndata_metro.csv,RLE+BWS,4858991,1229515,48203,77778.0,0.4033877559487999

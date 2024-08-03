@@ -1,6 +1,0 @@
-Input Direction,Column Index,Encoding Algorithm,Compress Algorithm,Encoding Time,Decoding Time,Compress Time,Uncompress Time,Points,Compressed Size,Compression Ratio
-/Users/zihanguo/Downloads/outliier_code/encoding-outlier/iotdb_test_small/TY-Fuel/syndata_fuel4.csv,1,BTRBLOCKS,NOCOMPRESSION,899746.3636363636,0,0,0,29730,38720,0.32560009785035016
-/Users/zihanguo/Downloads/outliier_code/encoding-outlier/iotdb_test_small/TY-Fuel/syndata_fuel3.csv,1,BTRBLOCKS,NOCOMPRESSION,833746.2727272727,0,0,0,29730,26802,0.2253829923860196
-/Users/zihanguo/Downloads/outliier_code/encoding-outlier/iotdb_test_small/TY-Fuel/syndata_fuel2.csv,1,BTRBLOCKS,NOCOMPRESSION,675090.7272727273,0,0,0,29730,18844,0.1584594685502859
-/Users/zihanguo/Downloads/outliier_code/encoding-outlier/iotdb_test_small/TY-Fuel/syndata_fuel0.csv,1,BTRBLOCKS,NOCOMPRESSION,803060.7272727273,0,0,0,29730,23433,0.19705149374675104
-/Users/zihanguo/Downloads/outliier_code/encoding-outlier/iotdb_test_small/TY-Fuel/syndata_fuel1.csv,1,BTRBLOCKS,NOCOMPRESSION,883605.9090909091,0,0,0,29730,33129,0.2785860624407546

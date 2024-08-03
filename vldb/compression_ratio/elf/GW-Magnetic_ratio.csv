@@ -1,5 +1,0 @@
-Input Direction,Column Index,Encoding Algorithm,Compress Algorithm,Encoding Time,Decoding Time,Compress Time,Uncompress Time,Points,Compressed Size,Compression Ratio,
-syndata_magnetic0.csv,1,ElfCompressor32,NOCOMPRESSED,2083662.0,1399334.0,0,0,18354.0,378712.0,0.6448049471504849,
-syndata_magnetic1.csv,1,ElfCompressor32,NOCOMPRESSED,5138376.0,4154158.0,0,0,58374.0,606219.0,0.3245339320587933,
-syndata_magnetic3.csv,1,ElfCompressor32,NOCOMPRESSED,4050378.0,2527796.0,0,0,58374.0,606219.0,0.3245339320587933,
-syndata_magnetic2.csv,1,ElfCompressor32,NOCOMPRESSED,1544165.0,763333.0,0,0,17786.0,365011.0,0.6413242859552457,

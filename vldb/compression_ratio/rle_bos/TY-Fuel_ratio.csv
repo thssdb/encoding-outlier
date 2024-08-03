@@ -1,6 +1,0 @@
-Input Direction,Encoding Algorithm,Encoding Time,Decoding Time,Points,Compressed Size,Compression Ratio
-/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/TY-Fuel/syndata_fuel4.csv,RLE+BOS-O,28697568,875977,58531,93455.0,0.3991688165245767
-/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/TY-Fuel/syndata_fuel3.csv,RLE+BOS-O,22051077,1023754,58531,120894.0,0.5163673950556116
-/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/TY-Fuel/syndata_fuel2.csv,RLE+BOS-O,1014065,897262,58531,34347.0,0.146704310536297
-/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/TY-Fuel/syndata_fuel0.csv,RLE+BOS-O,1108119,921873,58531,42690.0,0.18233927320565171
-/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/TY-Fuel/syndata_fuel1.csv,RLE+BOS-O,6334961,1018152,58531,60318.0,0.2576327074541696

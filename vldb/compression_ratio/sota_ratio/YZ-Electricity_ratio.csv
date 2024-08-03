@@ -1,9 +1,0 @@
-Input Direction,Column Index,Encoding Algorithm,Compress Algorithm,Encoding Time,Decoding Time,Compress Time,Uncompress Time,Points,Compressed Size,Compression Ratio
-/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/YZ-Electricity/0a.csv,1,PLAIN,UNCOMPRESSED,151221,55718,1376,1754,10107,24699.0,0.6109379637874728
-/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/YZ-Electricity/0a.csv,1,TS_2DIFF,UNCOMPRESSED,81776,70224,1586,1579,10107,17902.0,0.4428119125358662
-/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/YZ-Electricity/0a.csv,1,RLE,UNCOMPRESSED,163264,68488,1666,1619,10107,19006.0,0.47011971900662997
-/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/YZ-Electricity/0a.csv,1,SPRINTZ,UNCOMPRESSED,607064,185118,1208,1624,10107,15511.0,0.38366973384782876
-/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/YZ-Electricity/0a.csv,1,GORILLA,UNCOMPRESSED,173311,740,1253,1464,10107,21405.0,0.5294597803502517
-/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/YZ-Electricity/0a.csv,1,RLBE,UNCOMPRESSED,8978764,281405,1372,2088,10107,33112.0,0.8190363114673004
-/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/YZ-Electricity/0a.csv,1,CHIMP,UNCOMPRESSED,216989,1592,1418,1702,10107,17328.0,0.42861383199762526
-/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/YZ-Electricity/0a.csv,1,BUFF,UNCOMPRESSED,527184,4657,1959,1000,10107,17704.0,0.4379143168101314

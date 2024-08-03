@@ -1,6 +1,0 @@
-Input Direction,Encoding Algorithm,Encoding Time,Decoding Time,Points,Compressed Size,Compression Ratio
-/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/Cyber-Vehicle/syndata_vehicle0.csv,RLE+BWS,498394,73336,7280,9496.0,0.3260989010989011
-/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/Cyber-Vehicle/syndata_vehicle1.csv,RLE+BWS,721664,78556,7280,12099.0,0.4154876373626374
-/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/Cyber-Vehicle/syndata_vehicle3.csv,RLE+BWS,677928,110355,7280,5536.0,0.1901098901098901
-/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/Cyber-Vehicle/syndata_vehicle2.csv,RLE+BWS,543083,93385,7280,9142.0,0.3139423076923077
-/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/Cyber-Vehicle/syndata_vehicle4.csv,RLE+BWS,918930,89069,7280,8283.0,0.2844436813186813

@@ -1,6 +1,0 @@
-Input Direction,Column Index,Encoding Algorithm,Compress Algorithm,Encoding Time,Decoding Time,Compress Time,Uncompress Time,Points,Compressed Size,Compression Ratio
-/Users/zihanguo/Downloads/outliier_code/encoding-outlier/iotdb_test_small/Nifty-Stocks/syndata_stocks4.csv,1,BTRBLOCKS,NOCOMPRESSION,1119072.0,0,0,0,3710,4168,0.28086253369272235
-/Users/zihanguo/Downloads/outliier_code/encoding-outlier/iotdb_test_small/Nifty-Stocks/syndata_stocks2.csv,1,BTRBLOCKS,NOCOMPRESSION,150632.45454545456,0,0,0,3710,4420,0.2978436657681941
-/Users/zihanguo/Downloads/outliier_code/encoding-outlier/iotdb_test_small/Nifty-Stocks/syndata_stocks3.csv,1,BTRBLOCKS,NOCOMPRESSION,156946.9090909091,0,0,0,3710,4424,0.29811320754716986
-/Users/zihanguo/Downloads/outliier_code/encoding-outlier/iotdb_test_small/Nifty-Stocks/syndata_stocks1.csv,1,BTRBLOCKS,NOCOMPRESSION,160837.0909090909,0,0,0,3707,4420,0.29808470461289455
-/Users/zihanguo/Downloads/outliier_code/encoding-outlier/iotdb_test_small/Nifty-Stocks/syndata_stocks0.csv,1,BTRBLOCKS,NOCOMPRESSION,314712.2727272727,0,0,0,3706,4416,0.2978953049109552

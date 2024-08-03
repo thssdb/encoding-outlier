@@ -1,5 +1,0 @@
-Input Direction,Column Index,Encoding Algorithm,Compress Algorithm,Encoding Time,Decoding Time,Compress Time,Uncompress Time,Points,Compressed Size,Compression Ratio
-/Users/zihanguo/Downloads/outliier_code/encoding-outlier/iotdb_test_small/GW-Magnetic/syndata_magnetic0.csv,1,BTRBLOCKS,NOCOMPRESSION,845848.4545454546,0,0,0,18353,18620,0.2536370075736936
-/Users/zihanguo/Downloads/outliier_code/encoding-outlier/iotdb_test_small/GW-Magnetic/syndata_magnetic1.csv,1,BTRBLOCKS,NOCOMPRESSION,2.2522905363636363E7,0,0,0,58373,35751,0.15311445360012338
-/Users/zihanguo/Downloads/outliier_code/encoding-outlier/iotdb_test_small/GW-Magnetic/syndata_magnetic3.csv,1,BTRBLOCKS,NOCOMPRESSION,3943367.5454545454,0,0,0,58373,38098,0.1631661898480462
-/Users/zihanguo/Downloads/outliier_code/encoding-outlier/iotdb_test_small/GW-Magnetic/syndata_magnetic2.csv,1,BTRBLOCKS,NOCOMPRESSION,1312041.6363636365,0,0,0,17785,17940,0.25217880236154067

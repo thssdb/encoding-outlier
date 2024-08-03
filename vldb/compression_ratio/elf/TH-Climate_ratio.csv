@@ -1,2 +1,0 @@
-Input Direction,Column Index,Encoding Algorithm,Compress Algorithm,Encoding Time,Decoding Time,Compress Time,Uncompress Time,Points,Compressed Size,Compression Ratio,
-syndata_climate0.csv,1,ElfCompressor32,NOCOMPRESSED,8507183.0,2297225.0,0,0,131747.0,964708.0,0.228825893568734,

@@ -1,2 +1,0 @@
-Input Direction,Column Index,Encoding Algorithm,Compress Algorithm,Encoding Time,Decoding Time,Compress Time,Uncompress Time,Points,Compressed Size,Compression Ratio
-/Users/zihanguo/Downloads/outliier_code/encoding-outlier/iotdb_test_small/YZ-Electricity/0a.csv,1,BTRBLOCKS,NOCOMPRESSION,655371.0909090909,0,0,0,10107,18084,0.4473137429504304

@@ -1,6 +1,0 @@
-Input Direction,Encoding Algorithm,Encoding Time,Decoding Time,Points,Compressed Size,Compression Ratio
-/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/TY-Transport/syndata_transport3.csv,SPRINTZ+BWS,2417510,414822,29512,22085.0,0.18708491461100568
-/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/TY-Transport/syndata_transport0.csv,SPRINTZ+BWS,3682418,800274,51222,29800.0,0.1454453164655812
-/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/TY-Transport/syndata_transport1.csv,SPRINTZ+BWS,4374171,1083899,51222,49329.0,0.24076080590371324
-/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/TY-Transport/syndata_transport4.csv,SPRINTZ+BWS,2765341,470071,29512,35580.0,0.301402819192193
-/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/TY-Transport/syndata_transport6.csv,SPRINTZ+BWS,2654590,527920,34048,23525.0,0.17273408129699247

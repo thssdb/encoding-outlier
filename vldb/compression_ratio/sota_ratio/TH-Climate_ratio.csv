@@ -1,9 +1,0 @@
-Input Direction,Column Index,Encoding Algorithm,Compress Algorithm,Encoding Time,Decoding Time,Compress Time,Uncompress Time,Points,Compressed Size,Compression Ratio
-/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/TH-Climate/syndata_climate0.csv,1,PLAIN,UNCOMPRESSED,1642231,699653,1291,6454,131746,263270.0,0.49957873483825
-/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/TH-Climate/syndata_climate0.csv,1,TS_2DIFF,UNCOMPRESSED,885929,741898,1249,1377,131746,129585.0,0.2458993062407968
-/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/TH-Climate/syndata_climate0.csv,1,RLE,UNCOMPRESSED,2145420,837256,1583,1709,131746,164894.0,0.31290134045815426
-/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/TH-Climate/syndata_climate0.csv,1,SPRINTZ,UNCOMPRESSED,7056151,2283889,1669,1457,131746,127330.0,0.2416202389446364
-/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/TH-Climate/syndata_climate0.csv,1,GORILLA,UNCOMPRESSED,966405,7261,1414,1335,131746,80323.0,0.15242018733016538
-/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/TH-Climate/syndata_climate0.csv,1,RLBE,UNCOMPRESSED,91716178,2302867,1460,1709,131746,209732.0,0.3979855175868722
-/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/TH-Climate/syndata_climate0.csv,1,CHIMP,UNCOMPRESSED,2041651,14357,1875,1251,131746,150344.0,0.2852913940461192
-/Users/zihanguo/Downloads/R/outlier/outliier_code/encoding-outlier/trans_data/TH-Climate/syndata_climate0.csv,1,BUFF,UNCOMPRESSED,3983048,27130,1334,1374,131746,164699.0,0.3125313102485087
