@@ -9,18 +9,20 @@ path_ratio_outlier =  './compression_ratio/bos/'
 path_pfor_ratio =  './compression_ratio/pfor_ratio/' 
 path_sprintz_bos_ratio =  './compression_ratio/sprintz_bos/' 
 path_rle_bos_ratio =  './compression_ratio/rle_bos/' 
-path_m_bos_ratio =  './compression_ratio/bos_m/' 
-path_rle_bos_m_ratio = './compression_ratio/rle_bos_m/'
-path_sprintz_bos_m_ratio = './compression_ratio/sprintz_bos_m/'
-path_bosb_ratio = './compression_ratio/bos_b/'
-path_rle_bosb_ratio = './compression_ratio/rle_bos_b/'
-path_sprintz_bosb_ratio = './compression_ratio/sprintz_bos_b/'
+path_m_bos_ratio =  './compression_ratio/bos_m_improve/' 
+path_rle_bos_m_ratio = './compression_ratio/rle_bos_m_improve/'
+path_sprintz_bos_m_ratio = './compression_ratio/sprintz_bos_m_improve/'
+path_bosb_ratio = './compression_ratio/bos_b_improve/'
+path_rle_bosb_ratio = './compression_ratio/rle_bos_b_improve/'
+path_sprintz_bosb_ratio = './compression_ratio/sprintz_bos_b_improve/'
 path_tsdiff_ratio = './compression_ratio/tsdiff/'
+path_sprintz_ratio = './compression_ratio/sprintz/'
+
 # path_pruning_bos_ratio = './compression_ratio/pruning_bos/'
 # path_pruning_sprintz_ratio = './compression_ratio/sprintz_pruning/'
 # path_pruning_rle_ratio = './compression_ratio/rle_pruning/'
 # path_test_ratio = './compression_ratio/test_2_point/'
-path_test_beta_ratio = ['./compression_ratio/tsdiff/']
+path_test_beta_ratio = ['./compression_ratio/tsdiff/','./compression_ratio/rle/']
 
 df_result = pd.DataFrame(columns=['Encoding','Dataset','Encoding Time'])
 result_count = 0
@@ -31,6 +33,8 @@ for j in range(len(dir_r)):
     # print(dir_ratio)
     df = pd.read_csv(dir_ratio)
     df['Encoding Algorithm'] = df['Encoding Algorithm'].replace('TS_2DIFF', 'OTHER')
+    df['Encoding Algorithm'] = df['Encoding Algorithm'].replace('SPRINTZ', 'OTHER')
+    df['Encoding Algorithm'] = df['Encoding Algorithm'].replace('RLE', 'OTHER')
     # df['Encoding Algorithm'] = df['Encoding Algorithm'].replace('TS_2DIFF', 'FOR-DELTA')
     # print(df)
     for k in range(df.shape[0]):
@@ -119,6 +123,25 @@ for j in range(len(dir_r)):
     df_avg_sprintz_bosb = df_sprintz_bosb.groupby(by = df_sprintz_bosb['Encoding Algorithm'], as_index=False).agg(lambda x: x.mean() if pd.api.types.is_numeric_dtype(x) else x)
     len_sprintz_bosb_df = df_avg_sprintz_bosb.shape[0]
 
+    dir_ratio_sprintz = path_sprintz_ratio + dir_r[j] + "_ratio.csv"
+    df_sprintz = pd.read_csv(dir_ratio_sprintz)
+    for k in range(df_sprintz.shape[0]):
+        df_sprintz.loc[k,"Encode"] = df_sprintz.iloc[k,2] / df_sprintz.iloc[k,4]
+    df_avg_sprintz = df_sprintz.groupby(by = df_sprintz['Encoding Algorithm'], as_index=False).agg(lambda x: x.mean() if pd.api.types.is_numeric_dtype(x) else x)
+    len_sprintz_df = df_avg_sprintz.shape[0]
+
+    for path_test_ratio in path_test_beta_ratio:
+        dir_ratio_test = path_test_ratio + dir_r[j] + "_ratio.csv"
+        df_test = pd.read_csv(dir_ratio_test)
+        for k in range(df_test.shape[0]):
+            df_test.loc[k,"Encode"] = df_test.iloc[k,2] / df_test.iloc[k,4]    
+        df_avg_test = df_test.groupby(by = df_test['Encoding Algorithm'], as_index=False).agg(lambda x: x.mean() if pd.api.types.is_numeric_dtype(x) else x)
+        len_test_df = df_avg_test.shape[0]
+
+        for i in range(len_test_df):
+            cr = df_avg_test.iloc[i,-1]
+            df_result.loc[result_count] = [df_avg_test.iloc[i,0],dir_r[j],cr]
+            result_count += 1 
     # dir_ratio_pruning_bos = path_tsdiff_ratio + dir_r[j] + "_ratio.csv"
     # df_pruning_bos = pd.read_csv(dir_ratio_pruning_bos)
     # for k in range(df_pruning_bos.shape[0]):
@@ -202,7 +225,11 @@ for j in range(len(dir_r)):
         cr = df_avg_sprintz_bosb.iloc[i,-1]
         df_result.loc[result_count] = [df_avg_sprintz_bosb.iloc[i,0],dir_r[j],cr]
         result_count += 1
-
+    
+    for i in range(len_sprintz_df):
+        cr = df_avg_sprintz.iloc[i,-1]
+        df_result.loc[result_count] = [df_avg_sprintz.iloc[i,0],dir_r[j],cr]
+        result_count += 1
     # for i in range(len_pruning_bos_df):
     #     cr = df_avg_pruning_bos.iloc[i,-1]
     #     df_result.loc[result_count] = [df_avg_pruning_bos.iloc[i,0],dir_r[j],cr]
@@ -222,7 +249,7 @@ for j in range(len(dir_r)):
         dir_ratio_test = path_test_ratio + dir_r[j] + "_ratio.csv"
         df_test = pd.read_csv(dir_ratio_test)
         for k in range(df_test.shape[0]):
-            df_test.loc[k,"Encode"] = df_test.iloc[k,5] / df_test.iloc[k,8]    
+            df_test.loc[k,"Encode"] = df_test.iloc[k,2] / df_test.iloc[k,4]    
         df_avg_test = df_test.groupby(by = df_test['Encoding Algorithm'], as_index=False).agg(lambda x: x.mean() if pd.api.types.is_numeric_dtype(x) else x)
         len_test_df = df_avg_test.shape[0]
 
@@ -233,7 +260,7 @@ for j in range(len(dir_r)):
 
 
 # print(df_result)
-df_result.to_csv("./compression_ratio/encode_time.csv",index=False)
+df_result.to_csv("./compression_ratio/encode_time_improve.csv",index=False)
 
 # path_datasets = './iotdb_datasets_lists'  # 文件目录
 dir_r = ["EPM-Education","GW-Magnetic","Metro-Traffic", "Nifty-Stocks", "USGS-Earthquakes", "Vehicle-Charge","CS-Sensors", "Cyber-Vehicle", "TH-Climate", "TY-Fuel","TY-Transport","YZ-Electricity"]
@@ -249,6 +276,8 @@ for j in range(len(dir_r)):
 
     dir_ratio = path_ratio + dir_r[j] + "_ratio.csv"
     df = pd.read_csv(dir_ratio)
+    df['Encoding Algorithm'] = df['Encoding Algorithm'].replace('SPRINTZ', 'OTHER')
+    df['Encoding Algorithm'] = df['Encoding Algorithm'].replace('RLE', 'OTHER')
     # df['Encoding Algorithm'] = df['Encoding Algorithm'].replace('TS_2DIFF', 'FOR-DELTA')
     for k in range(df.shape[0]):
         df.loc[k,"Decode"] = df.iloc[k,5] / df.iloc[k,8]
@@ -338,6 +367,25 @@ for j in range(len(dir_r)):
     df_avg_sprintz_bosb = df_sprintz_bosb.groupby(by = df_sprintz_bosb['Encoding Algorithm'], as_index=False).agg(lambda x: x.mean() if pd.api.types.is_numeric_dtype(x) else x)
     len_sprintz_bosb_df = df_avg_sprintz_bosb.shape[0]
 
+    dir_ratio_sprintz = path_sprintz_ratio + dir_r[j] + "_ratio.csv"
+    df_sprintz = pd.read_csv(dir_ratio_sprintz)
+    for k in range(df_sprintz.shape[0]):
+        df_sprintz.loc[k,"Encode"] = df_sprintz.iloc[k,3] / df_sprintz.iloc[k,4]
+    df_avg_sprintz = df_sprintz.groupby(by = df_sprintz['Encoding Algorithm'], as_index=False).agg(lambda x: x.mean() if pd.api.types.is_numeric_dtype(x) else x)
+    len_sprintz_df = df_avg_sprintz.shape[0]
+
+    for path_test_ratio in path_test_beta_ratio:
+        dir_ratio_test = path_test_ratio + dir_r[j] + "_ratio.csv"
+        df_test = pd.read_csv(dir_ratio_test)
+        for k in range(df_test.shape[0]):
+            df_test.loc[k,"Encode"] = df_test.iloc[k,3] / df_test.iloc[k,4]    
+        df_avg_test = df_test.groupby(by = df_test['Encoding Algorithm'], as_index=False).agg(lambda x: x.mean() if pd.api.types.is_numeric_dtype(x) else x)
+        len_test_df = df_avg_test.shape[0]
+
+        for i in range(len_test_df):
+            cr = df_avg_test.iloc[i,-1]
+            df_result.loc[result_count] = [df_avg_test.iloc[i,0],dir_r[j],cr]
+            result_count += 1 
     # dir_ratio_pruning_bos = path_pruning_bos_ratio + dir_r[j] + "_ratio.csv"
     # df_pruning_bos = pd.read_csv(dir_ratio_pruning_bos)
     # for k in range(df_pruning_bos.shape[0]):
@@ -419,12 +467,17 @@ for j in range(len(dir_r)):
         cr = df_avg_sprintz_bosb.iloc[i,-1]
         df_result.loc[result_count] = [df_avg_sprintz_bosb.iloc[i,0],dir_r[j],cr]
         result_count += 1
+    
+    for i in range(len_sprintz_df):
+        cr = df_avg_sprintz.iloc[i,-1]
+        df_result.loc[result_count] = [df_avg_sprintz.iloc[i,0],dir_r[j],cr]
+        result_count += 1
 
     for path_test_ratio in path_test_beta_ratio:
         dir_ratio_test = path_test_ratio + dir_r[j] + "_ratio.csv"
         df_test = pd.read_csv(dir_ratio_test)
         for k in range(df_test.shape[0]):
-            df_test.loc[k,"Decode"] = df_test.iloc[k,6] / df_test.iloc[k,8]    
+            df_test.loc[k,"Decode"] = df_test.iloc[k,3] / df_test.iloc[k,4]    
         df_avg_test = df_test.groupby(by = df_test['Encoding Algorithm'], as_index=False).agg(lambda x: x.mean() if pd.api.types.is_numeric_dtype(x) else x)
         len_test_df = df_avg_test.shape[0]
 
@@ -448,4 +501,4 @@ for j in range(len(dir_r)):
     #     result_count += 1 
 
 # print(df_result)
-df_result.to_csv("./compression_ratio/decode_time.csv",index=False)
+df_result.to_csv("./compression_ratio/decode_time_improve.csv",index=False)

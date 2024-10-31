@@ -10,12 +10,12 @@ path_pfor_ratio =  './compression_ratio/pfor_ratio/'
 # path_sprintz_ratio =  './compression_ratio/sprintz/' 
 path_sprintz_bos_ratio =  './compression_ratio/sprintz_bos/' 
 path_rle_bos_ratio =  './compression_ratio/rle_bos/' 
-path_m_bos_ratio =  './compression_ratio/bos_m/' 
-path_rle_bos_m_ratio = './compression_ratio/rle_bos_m/'
-path_sprintz_bos_m_ratio = './compression_ratio/sprintz_bos_m/'
-path_bosb_ratio = './compression_ratio/bos_b/'
-path_rle_bosb_ratio = './compression_ratio/rle_bos_b/'
-path_sprintz_bosb_ratio = './compression_ratio/sprintz_bos_b/'
+path_m_bos_ratio =  './compression_ratio/bos_m_improve/' 
+path_rle_bos_m_ratio = './compression_ratio/rle_bos_m_improve/'
+path_sprintz_bos_m_ratio = './compression_ratio/sprintz_bos_m_improve/'
+path_bosb_ratio = './compression_ratio/bos_b_improve/'
+path_rle_bosb_ratio = './compression_ratio/rle_bos_b_improve/'
+path_sprintz_bosb_ratio = './compression_ratio/sprintz_bos_b_improve/'
 path_sprintz_ratio = './compression_ratio/sprintz/'
 path_tsdiff_ratio = './compression_ratio/tsdiff/'
 # path_pruning_bos_ratio = './compression_ratio/pruning_bos/'
@@ -221,4 +221,4 @@ for j in range(len(dir_r)):
     #     res_index += 1
 
 # print(df_result)
-df_result.to_csv("./compression_ratio/compression_ratio.csv",index=False)
+df_result.to_csv("./compression_ratio/compression_ratio_improve.csv",index=False)

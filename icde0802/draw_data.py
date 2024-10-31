@@ -109,7 +109,7 @@ plt.subplots_adjust(hspace=0.6)
 plt.savefig("./figs/data_dis_rle.eps",format='eps',dpi = 400,bbox_inches='tight')
 plt.savefig("./figs/data_dis_rle.png", dpi = 400,bbox_inches='tight')
 
-fig, axs = plt.subplots(3, 4, figsize=(10, 6))
+fig, axs = plt.subplots(3, 4, figsize=(10, 5.5))
 for i,file in enumerate(file_r):
     file_path = file_parent_path + file
     data = read_csv(file_path)
@@ -118,7 +118,7 @@ for i,file in enumerate(file_r):
     title_i = title_list[i]
     plot_distribution_tsdiff(data,dir_r[i],axs[row, col],title_i)
 plt.subplots_adjust(wspace=0.53)  # Increase or decrease this value to adjust spacing
-plt.subplots_adjust(hspace=0.6) 
+plt.subplots_adjust(hspace=0.7) 
 
 # plt.tight_layout()
 plt.savefig("./figs/data_dis_diff.eps",format='eps',dpi = 400,bbox_inches='tight')

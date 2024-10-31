@@ -6,13 +6,14 @@ dir_r = ["EPM-Education","Metro-Traffic","Vehicle-Charge","CS-Sensors","TH-Clima
 encoding_list = ["GORILLA","CHIMP","Elf","BUFF","RLE","RLE+PFOR","RLE+NEWPFOR","RLE+OPTPFOR","RLE+FASTPFOR","RLE+BOS-V","RLE+BOS-B","RLE+BOS-M","SPRINTZ","SPRINTZ+PFOR","SPRINTZ+NEWPFOR","SPRINTZ+OPTPFOR","SPRINTZ+FASTPFOR","SPRINTZ+BOS-V","SPRINTZ+BOS-B","SPRINTZ+BOS-M","TS_2DIFF","TS_2DIFF+PFOR","TS_2DIFF+NEWPFOR","TS_2DIFF+OPTPFOR","TS_2DIFF+FASTPFOR","TS_2DIFF+BOS-V","TS_2DIFF+BOS-B","TS_2DIFF+BOS-M"]
 datasets = ["EE","MT","VC","CS","TC","TT","YE","GM","UE","CV","TF","NS"]
 
-df = pd.read_csv("./compression_ratio/encode_time.csv")
+df = pd.read_csv("./compression_ratio/encode_time_improve.csv")
 # df = df[df['Dataset'] != 'Nifty-Stocks']
-df2 = pd.read_csv("./compression_ratio/decode_time.csv")
+df2 = pd.read_csv("./compression_ratio/decode_time_improve.csv")
 # df2 = df2[df2['Dataset'] != 'Nifty-Stocks']
 # text = text + "\\hline\n"
 # text = text + "\\multirow{" + str(len(encoding_list)) + "}*{\\rotatebox[origin=c]{90}{Decoding Time/(ns/points)}}"
-width = 0 
+width = 0 #保留几位有效数字
+# 对每个数据集找最佳的
 df2 = df2[df2["Encoding"].isin(encoding_list)]
 max_array = {}
 for dataset in dir_r:
@@ -29,7 +30,27 @@ text = text + "\\multicolumn{2}{|c||}{\\multirow{2}*{Methods}}"# & \multicolumn{
 # text = text + "\\\\ \\cline{3-26}\n \\multicolumn{2}{|c||}{~}"
 text += " & \\multicolumn{6}{|c||}{Compress datasets without float} & \\multicolumn{6}{|c||}{Compress datasets with float} & \\multicolumn{6}{|c||}{Decompress datasets without float} & \\multicolumn{6}{|c|}{Decompress datasets with float} \\\\ \\cline{3-26}\n\\multicolumn{2}{|c||}{~}"
 count = 0
-
+# for dataset in datasets:
+#     count = count + 1
+#     if count == 7:
+#         break
+#     text = text + " & " + dataset
+# count = 0
+# for dataset in datasets:
+#     count = count + 1
+#     if count == 7:
+#         break
+#     text = text + " & " + dataset
+# count = 0
+# for dataset in datasets:
+#     count = count + 1
+#     if count >= 7:
+#         text = text + " & " + dataset
+# count = 0
+# for dataset in datasets:
+#     count = count + 1
+#     if count >= 7:
+#         text = text + " & " + dataset
 for dataset in datasets:
     text = text + " & " + dataset
 for dataset in datasets:
@@ -135,7 +156,28 @@ for encoding in encoding_list:
             text = text + " & " + str(round(ratio2)+1)
         else:
             text = text + " & " + "\\textbf{\\textcolor{red}{" + str(round(max_array[dataset])+1) + "}}"
-
+    # count = 0
+    # for dataset in dir_r:
+    #     count = count + 1
+    #     if count >= 7 :
+    #         new_df = df[df['Encoding'] == encoding]
+    #         new_df = new_df[new_df['Dataset'] == dataset]
+    #         ratio = new_df['Encoding Time'].values[0]
+    #         if ratio > 0:
+    #             text = text + " & " + str(round(ratio))
+    #         else:
+    #             text = text + " & " + "\\textbf{\\textcolor{red}{" + str(round(-ratio)) + "}}"
+    # count = 0
+    # for dataset in dir_r:
+    #     count = count + 1
+    #     if count >= 7 :
+    #         new_df2 = df2[df2['Encoding'] == encoding]
+    #         new_df2 = new_df2[new_df2['Dataset'] == dataset]
+    #         ratio2 = new_df2['Decoding Time'].values[0]
+    #         if ratio2 > 0:
+    #             text = text + " & " + str(round(ratio2))
+    #         else:
+    #             text = text + " & " + "\\textbf{\\textcolor{red}{" + str(round(max_array[dataset])) + "}}"
     if encoding == encoding_list[-1]:
         text = text + "\\\\ \\hline\n"
     elif  encoding == "BUFF"  or encoding == "RLE+BOS-M" or encoding == "SPRINTZ+BOS-M":
